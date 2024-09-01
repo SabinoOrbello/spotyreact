@@ -29,6 +29,7 @@ const Artist = () => {
     <div>
       <h1>Artist Page</h1>
       {artist && <h2>{artist.name}</h2>}
+      <h3>Ciao bello</h3>
     </div>
   );
 };
